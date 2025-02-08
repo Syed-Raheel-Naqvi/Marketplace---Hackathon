@@ -1,0 +1,10 @@
+Test Case ID,Test Case Description,Test Steps,Expected Result,Achieved Result,Status ,Severity,Remarks 
+TC001,Responsiveness,Use in-browser developer tools and check website on own mobile screen,Fully responsive and mobile supportive,Fully Responsive and Mobile supported,Passed,Low, -
+TC002,Light House Report ,Use in-browser developer tools and check website on own mobile screen,Slightly fluctuating ,A perfect score,Passed,None,Surprising
+TC003,check Filter functionality on /shop route,Go to /shop and use the filter button for various values,Perfectly fine,works perfectly fine,Passed,None,-
+TC004,Check Search functionality,"Go to /shop route and search for burgers, then pizzas",,it gives expected result,Passed,None,-
+TC005,Checking routes,Try to navigate to different pages using the navbar,Should successfully navigate to the expected page,successfully navigates to the route,Passed,None,-
+TC006,Check whether authentication is working correctly or not,Go to sign up page and click on sign up,Should open a clerk interface that would sign up new users,The button remains static,Failed,High,I will be trying to resolve this as soon as possible
+TC007,Check the contact form in the about page,,Typed in email should successfully be saved to sanity,email is saved to sanity,Passed,Low," it works fine though, zod is not working properly after production."
+TC008,Checking the interactivity of the site,check if you're enjoying visiting the site or not,one should not enjoy deeply but should feel the site as active and live,many of the site's functionality is unexpectedly static which makes it feel very robotic,Failed,Mid,"I am also working on a custom template, hope to replace this one with my own template before the deadline ends."
+TC009,Check Dynamic routes on the site,"Go to /shop, click on any of the products visible",should open a new dynamic page that is specific to the product,The click feels unresponsive and no dynamic route opens up,Failed,Severe,"The page has been coded however,  it is not visible"
